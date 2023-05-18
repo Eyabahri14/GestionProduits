@@ -1,0 +1,92 @@
+﻿@model IEnumerable<App.ApplicationCore.Domain.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+
+<form asp-controller="Product" asp-action="Index" method="post">
+    Search by Product Name :
+    <input type="text" name="name" />
+    <input type="submit" value="Search" />
+</form>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<p>
+    <a asp-action="Index" asp-controller="Category">Liste des Categories</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateProd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryFK)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateProd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryFK)
+            </td>
+
+                <td>
+                    @if (item.Image != null)
+                    {
+                        <img src="@Url.Content("~/upload/"+item.Image)" style="width:100px;height:60px" />
+
+                    }
+                </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.ProductId }) |
+                @Html.ActionLink("Details", "Details", new {  id=item.ProductId  }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.ProductId  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

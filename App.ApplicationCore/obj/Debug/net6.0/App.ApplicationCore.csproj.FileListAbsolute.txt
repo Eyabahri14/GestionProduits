@@ -1,0 +1,12 @@
+C:\Users\eyaba\Desktop\Prototype\Prototype\App\App.ApplicationCore\obj\Debug\net6.0\App.ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\eyaba\Desktop\Prototype\Prototype\App\App.ApplicationCore\obj\Debug\net6.0\App.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eyaba\Desktop\Prototype\Prototype\App\App.ApplicationCore\obj\Debug\net6.0\App.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\eyaba\Desktop\Prototype\Prototype\App\App.ApplicationCore\obj\Debug\net6.0\App.ApplicationCore.AssemblyInfo.cs
+C:\Users\eyaba\Desktop\Prototype\Prototype\App\App.ApplicationCore\obj\Debug\net6.0\App.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\eyaba\Desktop\Prototype\Prototype\App\App.ApplicationCore\bin\Debug\net6.0\App.ApplicationCore.deps.json
+C:\Users\eyaba\Desktop\Prototype\Prototype\App\App.ApplicationCore\bin\Debug\net6.0\App.ApplicationCore.dll
+C:\Users\eyaba\Desktop\Prototype\Prototype\App\App.ApplicationCore\bin\Debug\net6.0\App.ApplicationCore.pdb
+C:\Users\eyaba\Desktop\Prototype\Prototype\App\App.ApplicationCore\obj\Debug\net6.0\App.ApplicationCore.dll
+C:\Users\eyaba\Desktop\Prototype\Prototype\App\App.ApplicationCore\obj\Debug\net6.0\refint\App.ApplicationCore.dll
+C:\Users\eyaba\Desktop\Prototype\Prototype\App\App.ApplicationCore\obj\Debug\net6.0\App.ApplicationCore.pdb
+C:\Users\eyaba\Desktop\Prototype\Prototype\App\App.ApplicationCore\obj\Debug\net6.0\ref\App.ApplicationCore.dll
